@@ -1,5 +1,7 @@
 
 # Paired Question
+짝 지어진 두 개의 질문이 같은 질문인지 다른 질문인지 핸드 레이블을 달아둔 데이터
+
 
 ## Data description
 
@@ -15,3 +17,8 @@ label
                        
 
 ## ![Quick peek](./data.png)
+
+
+
+데이터 생성에 참고한 자료
+https://www.kaggle.com/c/quora-insincere-questions-classification/data
