@@ -1,14 +1,17 @@
 
-# 질문쌍(Paired Question)
+# 질문쌍(Paired Question v.2)
 - 짝 지어진 두 개의 질문이 같은 질문인지 다른 질문인지 핸드 레이블을 달아둔 데이터              
 - 사랑, 이별, 또는 일상과 같은 주제로 도메인 특정적이지 않음    
 
 # 데이터 관련 이슈
-train data와 test data의 distribution이 다름           
-Issues를 참고하여 @aisolab 님께서 다시 섞어서 split 한 데이터를 이용하시면 좋을 듯합니다.    
-시간이 나는 대로 꼼꼼히 데이터를 업데이트 해 보겠습니다.     
+데이터 생성 후 train data와 test data의 distribution이 다른 Issues로   
+@aisolab님이 다시 split 한 데이터로 업데이트        
 
-  
+데이터 재생성 코드 참고 링크 : https://github.com/aisolab/nlp_implementation/tree/master/BERT_pairwise_text_classification
+
+=================================     
+
+# 질문쌍과 관련한 단상들
 
 #  "두 질문이 같다"라는 말의 정의    
 "짝 지어진 두 질문이 같다"는 말은 문장의 길이, 어순 또는 사용하는 단어가 달라졌음에도 불구하고 두 문장이 같은 의미임을 나타낸다. 즉 형태 통사적 차이에도 불구하고 의미는 같다고 판정하는 것이다.    
@@ -55,7 +58,7 @@ label
 다른 질문 1                 
                        
 
-## ![Quick peek](./data.png)
+## ![Quick peek](./data_image.png)
 
 
 
